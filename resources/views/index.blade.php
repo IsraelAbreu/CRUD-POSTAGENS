@@ -1,4 +1,5 @@
 @extends('layout.layout')
+@section('title', 'Inicio')
 @section('content')    
       @foreach ($post as $item)
       <div class="card mt-5">

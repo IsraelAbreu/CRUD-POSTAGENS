@@ -1,4 +1,5 @@
 @extends('layout.layout')
+@section('title', 'Editar Post')
 @section('content')
   <form action="{{route('post.update', $post->id)}}" method="POST">
     @csrf

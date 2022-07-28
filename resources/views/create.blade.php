@@ -1,4 +1,5 @@
 @extends('layout.layout')
+@section('title', 'Novo Post')
 @section('content')
   <form action="{{route('post.store')}}" method="POST">
     @csrf
